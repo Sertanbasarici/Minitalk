@@ -6,7 +6,7 @@
 /*   By: sebasari <sebasari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/28 16:18:13 by sebasari          #+#    #+#             */
-/*   Updated: 2024/04/04 13:34:19 by sebasari         ###   ########.fr       */
+/*   Updated: 2024/04/04 19:56:43 by sebasari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,6 @@ void	send_message(int pid, char c)
 void	ft_print_error(void)
 {
 	write(2, "Error\n", 6);
-	system("leaks client");
 	exit(1);
 }
 
